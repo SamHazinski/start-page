@@ -31,6 +31,9 @@ function search(query, engine)
 		case 'youtube':
 			var url = 'https://www.youtube.com/results?search_query=' + query;
 		break;
+		case 'recipe':
+			var url = 'https://www.allrecipes.com/search?q=' + query;
+		break;
 		case 'duck':
 			var url = 'https://duckduckgo.com/?q=' + query;
 		break;
@@ -40,9 +43,7 @@ function search(query, engine)
 		case 'imdb':
 			var url = 'http://www.imdb.com/find?q=' + query + '&s=tt';
 		break;
-		case 'recipe':
-			var url = 'https://www.allrecipes.com/search?q=' + query;
-		break;
+		
 	}
 	
 	if (!shiftDown){
