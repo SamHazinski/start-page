@@ -179,9 +179,9 @@ body {
   #linkArea h3 {
     margin: 27px 0 13px;
     font: 500 20px Raleway;
-    color: #bac8ea; }       /* Link colors */
+    color: #2b265c; }       /* Link colors */
   #linkArea h3.alt {
-    color: #b6a7d2; }       /* Alternate link colors */
+    color: #02757c; }       /* Alternate link colors */
   #linkArea ul.links, #linkArea ul.links li {
     margin: 0;
     padding: 0;
