@@ -40,6 +40,9 @@ function search(query, engine)
 		case 'imdb':
 			var url = 'http://www.imdb.com/find?q=' + query + '&s=tt';
 		break;
+		case 'recipe':
+			var url = 'https://www.allrecipes.com/search?q=' + query;
+		break;
 	}
 	
 	if (!shiftDown){
