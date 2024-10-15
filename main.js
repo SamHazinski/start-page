@@ -58,7 +58,7 @@ $(function()
    setDate($);
    
    $(window).keydown(function(e) {
-	  if (e.keyCode == 72){
+	  if (e.keyCode == 192){ //use tilda 
 		$('.hideable').toggleClass('hide');
 	  }
 	  if (e.keyCode == 16){
